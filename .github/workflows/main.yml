@@ -19,8 +19,8 @@ jobs:
 
      - name: Push Repo
        run: |
-         git config kheiro-bellahcene github-actions
-         git config kheireddine.bellahcene@gmail.com github-actions@github.com
+         git config user.name github-actions
+         git config user.email github-actions@github.com
          git add .
          git commit -m "Modified Feed"
          git push
